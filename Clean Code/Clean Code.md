@@ -1,0 +1,19 @@
+---
+tags:
+  - android
+  - done
+  - clean_code
+---
+- Rule of 3 or 1-2 Factor: As soon as you see third occurrence of same code, refactor it to improve reusability
+- Don't comment what happens: only leave comments on why something happens, ensure variable names and logic is readable
+- Don't be afraid of long names: ensure purpose of function/variable is understandable from name
+- Avoid genius code: readability is a higher goal over small performance gains
+- Law of Demeter: Make class variables private and expose necessary functionality out of it
+- Avoid side effects: Something changes outside of the expected scope
+- Avoid if/else: Use return statements earlier/more often
+- Features should have:
+	- Low coupling - features communicate to each other minimally
+	- High cohesion - each feature is highly specialized, uses what it provides for itself
+- Separation of concerns: divide your app into multiple layers where each layer has a clear purpose
+	- Example: data (model), domain (business logic), presentation (UI)
+- Follow DRY and SOLID principles

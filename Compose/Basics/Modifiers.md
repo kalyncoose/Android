@@ -1,0 +1,26 @@
+---
+tags:
+  - android
+  - done
+  - compose
+  - compose_basics
+---
+Video: https://www.youtube.com/watch?v=XCuC_p3E0qo&list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC&index=3
+- Modifiers can do many things to your composables
+	- Change heights and widths
+	- Change colors
+	- Add accessibility things like labels
+	- Add interactivity like tap-ability, draggable, zoomable, scrollable, etc.
+- Examples
+	- Use `.requiredWidth()` to force a width size
+	- `.padding(16.dp)` adds 16 padding around
+	- Can customize padding like `.padding(top = 50.dp)`
+	- Add a border like `.border(5.dp, Color.Magenta)`
+	- Add interaction with `.clickable { }`
+- There is NO **margin** in Jetpack Compose
+	- Instead you can wrap components and use `.padding()` to get the same effect as margin
+- There is `.offset()` which is like margin but does not affect other composables
+	- `.offset()` starts from the top-left of a composable
+- `Spacer` composable is useful for adding modifiers to an empty composable
+	- e.g. `Spacer(modifier = Modifier.height(50.dp))`
+- Can stack same modifier functions one after the other to apply effects in-order

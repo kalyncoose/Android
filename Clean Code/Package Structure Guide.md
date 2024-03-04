@@ -1,0 +1,54 @@
+---
+tags:
+  - android
+  - clean_code
+  - done
+---
+Video: https://www.youtube.com/watch?v=ek682t-z2gQ
+- Feature packages/modules at the very root
+	- Example: `auth/` stores all logic/screens related to `auth` feature, `profile/` stores all logic/screens related to `profile` feature
+		- Then under each feature package/module there will be the following:
+			- `data` - Database/API logic
+			- `domain` - Business logic, models
+			- `presentation` - Screens, UI components
+				- `components` - Store components shared across the feature's screens
+				- Example: `login/` folder for UI related to `login` screen under `auth/` feature
+					- `components` - Store components only used by login screen
+			- `di` - Dependency injection package/module, optional if you use this approach
+- Shared code between features can be in a root package called `core/`
+	- Follows similar structure as an individual feature package/module
+- Type-based packaging versus Context-based packaging
+	- Important for `data` and `domain` layers
+	- Example of Context-based packaging: `auth/domain/user` that stores `User` classes, use cases, etc. and mixes multiple types of classes
+	- Example of Type-based packaging: `auth/domain/` has separate packages for `models/`, `validation/`, `use_cases/`, etc. so each package consolidates similar class types
+	- Context-based packaging is typically better for larger projects because it scales better and the packages limit themselves in size
+	- Type-based packaging is typically better for smaller and limited projects that will not grow in size
+- Package structure example for a larger app (social media) that needs to scale, using Context-based packaging, using a single Gradle module but can be easily converted to multi-module in the future:
+	- `root/`
+		- `core/` - Shared code for all features
+			- `di/`
+			- `data/`
+			- `domain/`
+			- `presentation/`
+		- `auth/` - Auth feature for log in/create account/log out/etc.
+			- `di/`
+			- `data/`
+			- `domain/`
+			- `presentation/`
+				- `components/`
+				- `login/`
+		- `home/` - Home feature for home screen, home feed, entry to point to other features
+			-  `di/`
+			- `data/`
+			- `domain/`
+			- `presentation/`
+		- `friends/` - Friends feature for friends list, messaging, calls, block list, etc.
+			- `di/`
+			- `data/`
+			- `domain/`
+			- `presentation/`
+		- `profile/` - Profile feature for user profile, edit profile, profile feed, etc.
+			- `di/`
+			- `data/`
+			- `domain/`
+			- `presentation/`

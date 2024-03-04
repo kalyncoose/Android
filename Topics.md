@@ -1,0 +1,50 @@
+---
+tags:
+  - android
+  - done
+---
+- Channels
+	- [Philipp Lackner](https://www.youtube.com/@PhilippLackner)
+	- [Stevdza-San](https://www.youtube.com/@StevdzaSan)
+	- [CheezyCode](https://www.youtube.com/@CheezyCode/videos)
+	- [Ahmed Guedmioui](https://www.youtube.com/@ahmed_guedmioui)
+	- [Indently](https://www.youtube.com/@Indently)
+	- [Simplified Coding](https://www.youtube.com/@SimplifiedCoding)
+	- [Native Mobile Bits](https://www.youtube.com/@NativeMobileBits)
+	- [Android Developers](https://www.youtube.com/@AndroidDevelopers)
+- Android Platform - https://developer.android.com/
+	- Courses - https://developer.android.com/courses
+	- Intents
+	- Activities
+	- Bluetooth
+	- Notifications
+	- Storage
+- Kotlin - https://kotlinlang.org/docs/home.html
+	- Annotations
+	- DateTime
+	- Flows
+	- Work Manager
+	- Asynchronous
+		- Coroutines
+		- Ktor
+- UI/UX - https://developer.android.com/jetpack/compose
+	- Jetpack Compose
+	- Material vs. Material3
+	- Canvas
+- Data Management
+	- Keystore
+	- Room
+	- SQLite
+	- GraphQL
+- State Management
+- App Architecture
+	- Clean
+	- Solid
+	- Dependency Injection
+- Kotlin Multiplatform (KMP, formerly KMM)
+- Tooling
+	- Android Studio
+	- Gradle
+- Testing
+- CI/CD
+- Security

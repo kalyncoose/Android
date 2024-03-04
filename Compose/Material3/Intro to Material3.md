@@ -1,0 +1,24 @@
+---
+tags:
+  - android
+  - done
+  - compose
+  - material3
+---
+Video: https://www.youtube.com/watch?v=I3eT32LXAKc
+- **Dynamic Colors**:
+    - Introduces a system for generating colors dynamically based on specified base colors, ensuring consistency and adaptability across different interfaces.
+- **Color System**:
+    - Offers a comprehensive palette with primary, secondary, and tertiary colors, facilitating coherent visual hierarchy and user experience.
+- **Accent Colors**:
+    - Defined set of vibrant colors used to highlight key elements and actions within the interface, enhancing user interaction and navigation.
+- **Surface Colors**:
+    - Palette of colors applied to various surfaces within the interface, distinguishing elements such as cards, sheets, and backgrounds for clarity and depth.
+- **Error Colors**:
+    - Distinct colors denoting error states or feedback, aiding users in quickly identifying and resolving issues within the interface.
+- **Inverse Colors**:
+    - Colors optimized for high-contrast interfaces, ensuring readability and accessibility in both light and dark themes.
+- **Shapes**:
+    - Guidelines for consistent use of shapes, including rounded corners, elevation, and shadows, enhancing visual hierarchy and usability.
+- **Typography**:
+    - Recommendations for font styles, weights, and sizes, promoting legibility and coherence across different devices and screen sizes.

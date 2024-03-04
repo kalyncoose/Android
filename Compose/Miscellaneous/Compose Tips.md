@@ -1,0 +1,13 @@
+---
+tags:
+  - android
+  - done
+  - compose
+  - clean_code
+  - compose_misc
+---
+- Used named parameters, on a separate line if multiple
+- Use effect handlers to avoid side effects
+- Reuse as much as possible
+- Use helper/wrapper classes (complex composables with many attributes)
+- Avoid fixed dimensions (hardcoded heights/widths), use cols/rows/weights/layouts

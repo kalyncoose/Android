@@ -1,0 +1,14 @@
+---
+tags:
+  - android
+  - done
+  - mvvm
+---
+- Video: https://www.youtube.com/watch?v=-xTqfilaYow
+- MVVM stands for Model, View, View Model
+	- **Model** represents the data source (database, remote API, etc.)
+	- **View Model** contains the business logic such as filtering a list or validating data
+		- Is the bridge between **Model** and **View**
+	- **View** is the visible UI elements, gets events from the **View Model** on when it should update its views
+		- Should contain no business logic
+		- Should only contain logic to manipulate the views

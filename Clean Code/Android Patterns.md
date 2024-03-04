@@ -1,0 +1,12 @@
+---
+tags:
+  - android
+  - done
+  - clean_code
+---
+- Singleton: one object instance in whole program
+- Factory: single entry point into creating multiple similar things (like a common dialog box with variants)
+- Builder: An inner class to a constructor with helpful attribute functions and a build() to finish construction
+- Facade: Hide underlying functionality to make code easier to use/read
+- Dependency Injection: Define dependencies into custom classes, use Dagger framework to inject, easily swap out deps
+- Adapter: Takes data and adapts it to UI, converts from data to layout items or values, etc.
