@@ -1,0 +1,59 @@
+- Android Platform
+	- Activity Lifecycle
+	- Android Context
+	- Broadcasts & Receivers
+	- Content Providers
+	- Foreground Services
+	- Intents & Filters
+	- Resources & Qualifiers
+	- Tasks, Back Stack, Launch Modes
+	- Unique Resource Identifiers
+	- View Models & Config Changes
+	- Work Manager
+- Jetpack Compose
+	- Basics
+		- Effect Handlers
+		- Modifiers
+		- State
+		- Styling Text
+	- Material3
+		- Bottom App Bar
+		- Bottom Navigation Bar
+		- Bottom Sheet
+		- Buttons
+		- Checkboxes, Switches, Radio Buttons
+		- Navigation Drawer
+		- Navigation Rail
+		- Tab Row
+		- Text Fields
+		- Top App Bar
+	- Layout
+		- Rows, Columns, Sizing
+		- Lists
+		- Constraint Layout
+	- Navigation
+		- Compose Navigation
+	- Animation
+- Kotlin
+	- Basics
+	- Coroutines
+		- Async & Await
+		- Coroutine Contexts
+		- Jobs, Waiting, Cancelation
+		- Lifecycle Scope & View Model Scope
+		- Run Blocking
+		- Starting a Coroutine
+		- Suspend Functions
+		- lWhat is a Coroutine
+	- Flows
+		- Combine, Zip, Merge
+		- Flow Basics
+		- Flow Operators
+		- StateFlow & SharedFlow
+- Remote API
+	- Retrofit
+- Database
+	- Room
+- Dependency Injection
+	- Dagger-Hilt
+

@@ -8,3 +8,4 @@ tags:
 ---
 Video: https://www.youtube.com/watch?v=eAbKK7JNxCE
 - Did this last year and the code failed due to location-related permissions code issue.
+- Open Meteo API: https://open-meteo.com/
